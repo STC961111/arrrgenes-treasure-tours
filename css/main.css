@@ -27,8 +27,9 @@ html {
   text-decoration: none;
 }
 
-.nav a span {
-  border-bottom: .3rem solid #bea59b;
+.nav a:focus {
+  outline-color: #fff;
+  background-color: #000;
 }
 
 .nav a:hover span,
